@@ -25,9 +25,9 @@
     mod
   ));
 
-  // ns-hugo:/home/runner/work/blog/blog/themes/virgo/assets/js/libs/jquery.min.js
+  // ns-hugo:/home/runner/work/actions_test/actions_test/themes/virgo/assets/js/libs/jquery.min.js
   var require_jquery_min = __commonJS({
-    "ns-hugo:/home/runner/work/blog/blog/themes/virgo/assets/js/libs/jquery.min.js"(exports, module) {
+    "ns-hugo:/home/runner/work/actions_test/actions_test/themes/virgo/assets/js/libs/jquery.min.js"(exports, module) {
       !function(e, t) {
         "use strict";
         "object" == typeof module && "object" == typeof module.exports ? module.exports = e.document ? t(e, true) : function(e2) {
@@ -2465,9 +2465,9 @@
     }
   });
 
-  // ns-hugo:/home/runner/work/blog/blog/themes/virgo/assets/js/libs/lodash.min.js
+  // ns-hugo:/home/runner/work/actions_test/actions_test/themes/virgo/assets/js/libs/lodash.min.js
   var require_lodash_min = __commonJS({
-    "ns-hugo:/home/runner/work/blog/blog/themes/virgo/assets/js/libs/lodash.min.js"(exports, module) {
+    "ns-hugo:/home/runner/work/actions_test/actions_test/themes/virgo/assets/js/libs/lodash.min.js"(exports, module) {
       (function() {
         function n(n2, t2, r2) {
           switch (r2.length) {
@@ -5812,9 +5812,9 @@
     }
   });
 
-  // ns-hugo:/home/runner/work/blog/blog/themes/virgo/assets/js/libs/darkreader.min.js
+  // ns-hugo:/home/runner/work/actions_test/actions_test/themes/virgo/assets/js/libs/darkreader.min.js
   var require_darkreader_min = __commonJS({
-    "ns-hugo:/home/runner/work/blog/blog/themes/virgo/assets/js/libs/darkreader.min.js"(exports, module) {
+    "ns-hugo:/home/runner/work/actions_test/actions_test/themes/virgo/assets/js/libs/darkreader.min.js"(exports, module) {
       !function(e, t) {
         "object" == typeof exports && "undefined" != typeof module ? t(exports) : "function" == typeof define && define.amd ? define(["exports"], t) : t((e = "undefined" != typeof globalThis ? globalThis : e || self).DarkReader = {});
       }(exports, function(e) {
@@ -8380,7 +8380,7 @@
     }
   });
 
-  // ns-hugo:/home/runner/work/blog/blog/themes/virgo/assets/js/init/greet.js
+  // ns-hugo:/home/runner/work/actions_test/actions_test/themes/virgo/assets/js/init/greet.js
   function greet() {
     console.log(
       `---------------------
@@ -8391,14 +8391,14 @@
     );
   }
 
-  // ns-hugo:/home/runner/work/blog/blog/themes/virgo/assets/js/init/eventBinding.js
+  // ns-hugo:/home/runner/work/actions_test/actions_test/themes/virgo/assets/js/init/eventBinding.js
   var import_jquery9 = __toESM(require_jquery_min());
   var import_lodash = __toESM(require_lodash_min());
 
-  // ns-hugo:/home/runner/work/blog/blog/themes/virgo/assets/js/init/fixAnchorTop.js
+  // ns-hugo:/home/runner/work/actions_test/actions_test/themes/virgo/assets/js/init/fixAnchorTop.js
   var import_jquery = __toESM(require_jquery_min());
 
-  // ns-hugo:/home/runner/work/blog/blog/themes/virgo/assets/js/utils/isMobile.js
+  // ns-hugo:/home/runner/work/actions_test/actions_test/themes/virgo/assets/js/utils/isMobile.js
   function browserRedirect() {
     let sUserAgent = navigator.userAgent.toLowerCase(), bIsIpad = sUserAgent.match(/ipad/i) == "ipad", bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os", bIsMidp = sUserAgent.match(/midp/i) == "midp", bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4", bIsUc = sUserAgent.match(/ucweb/i) == "ucweb", bIsAndroid = sUserAgent.match(/android/i) == "android", bIsCE = sUserAgent.match(/windows ce/i) == "windows ce", bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
     if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
@@ -8406,7 +8406,7 @@
     }
   }
 
-  // ns-hugo:/home/runner/work/blog/blog/themes/virgo/assets/js/init/fixAnchorTop.js
+  // ns-hugo:/home/runner/work/actions_test/actions_test/themes/virgo/assets/js/init/fixAnchorTop.js
   function fixAnchorTop() {
     let _hash = decodeURIComponent(location.hash);
     let _ele = browserRedirect() ? (0, import_jquery.default)("body") : (0, import_jquery.default)("html");
@@ -8414,7 +8414,7 @@
       _ele.scrollTop((0, import_jquery.default)(_hash).offset().top - 48);
   }
 
-  // ns-hugo:/home/runner/work/blog/blog/themes/virgo/assets/js/init/colorHeader.js
+  // ns-hugo:/home/runner/work/actions_test/actions_test/themes/virgo/assets/js/init/colorHeader.js
   var import_jquery2 = __toESM(require_jquery_min());
   function colorHeader() {
     let _curScroll = (0, import_jquery2.default)(this).scrollTop() + 48;
@@ -8425,10 +8425,10 @@
     }
   }
 
-  // ns-hugo:/home/runner/work/blog/blog/themes/virgo/assets/js/init/colorToc.js
+  // ns-hugo:/home/runner/work/actions_test/actions_test/themes/virgo/assets/js/init/colorToc.js
   var import_jquery4 = __toESM(require_jquery_min());
 
-  // ns-hugo:/home/runner/work/blog/blog/themes/virgo/assets/js/init/initToc.js
+  // ns-hugo:/home/runner/work/actions_test/actions_test/themes/virgo/assets/js/init/initToc.js
   var import_jquery3 = __toESM(require_jquery_min());
   function initToc() {
     (0, import_jquery3.default)("h2, h3").addClass("headline");
@@ -8439,7 +8439,7 @@
     });
   }
 
-  // ns-hugo:/home/runner/work/blog/blog/themes/virgo/assets/js/init/colorToc.js
+  // ns-hugo:/home/runner/work/actions_test/actions_test/themes/virgo/assets/js/init/colorToc.js
   function colorToc() {
     initToc();
     let _curScroll = (0, import_jquery4.default)(this).scrollTop() + 48;
@@ -8458,7 +8458,7 @@
     });
   }
 
-  // ns-hugo:/home/runner/work/blog/blog/themes/virgo/assets/js/utils/toggleToc.js
+  // ns-hugo:/home/runner/work/actions_test/actions_test/themes/virgo/assets/js/utils/toggleToc.js
   var import_jquery5 = __toESM(require_jquery_min());
   function toggleToc(e) {
     e.stopPropagation();
@@ -8475,11 +8475,11 @@
     }
   }
 
-  // ns-hugo:/home/runner/work/blog/blog/themes/virgo/assets/js/utils/toggleColor.js
+  // ns-hugo:/home/runner/work/actions_test/actions_test/themes/virgo/assets/js/utils/toggleColor.js
   var import_darkreader = __toESM(require_darkreader_min());
   var import_jquery7 = __toESM(require_jquery_min());
 
-  // ns-hugo:/home/runner/work/blog/blog/themes/virgo/assets/js/utils/parseSiteParams.js
+  // ns-hugo:/home/runner/work/actions_test/actions_test/themes/virgo/assets/js/utils/parseSiteParams.js
   var import_jquery6 = __toESM(require_jquery_min());
   function parseSiteParams() {
     let _vars = (0, import_jquery6.default)("#vars");
@@ -8487,7 +8487,7 @@
     return JSON.parse(_vars.text());
   }
 
-  // ns-hugo:/home/runner/work/blog/blog/themes/virgo/assets/js/utils/toggleColor.js
+  // ns-hugo:/home/runner/work/actions_test/actions_test/themes/virgo/assets/js/utils/toggleColor.js
   var color = parseSiteParams().svgColor;
   var dark = parseSiteParams().dark;
   var sun = `<svg t="1657283336399" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2283" width="16" height="16"><path d="M512 288c-123.488 0-224 100.512-224 224 0 123.488 100.512 224 224 224s224-100.512 224-224C736 388.512 635.488 288 512 288zM512 672c-88.384 0-160-71.616-160-160s71.616-160 160-160 160 71.616 160 160S600.384 672 512 672zM512 224c17.664 0 32-14.336 32-32L544 128c0-17.664-14.336-32-32-32s-32 14.336-32 32l0 64C480 209.664 494.336 224 512 224zM512 800c-17.664 0-32 14.336-32 32l0 64c0 17.664 14.336 32 32 32s32-14.336 32-32l0-64C544 814.336 529.664 800 512 800zM760.864 308.32l45.248-45.248c12.512-12.512 12.512-32.736 0-45.248-12.512-12.512-32.736-12.512-45.248 0l-45.248 45.248c-12.512 12.512-12.512 32.736 0 45.248C728.128 320.832 748.384 320.832 760.864 308.32zM263.136 715.68l-45.248 45.248c-12.512 12.512-12.512 32.736 0 45.248s32.736 12.512 45.248 0l45.248-45.248c12.512-12.544 12.512-32.768 0-45.248C295.872 703.168 275.616 703.136 263.136 715.68zM224 512c0-17.664-14.336-32-32-32L128 480c-17.664 0-32 14.336-32 32s14.336 32 32 32l64 0C209.664 544 224 529.664 224 512zM896 480l-64 0c-17.664 0-32 14.336-32 32s14.336 32 32 32l64 0c17.664 0 32-14.336 32-32S913.664 480 896 480zM263.072 308.32c12.512 12.512 32.768 12.512 45.248 0 12.512-12.512 12.512-32.736 0-45.248l-45.248-45.248c-12.512-12.512-32.736-12.512-45.248 0-12.512 12.512-12.512 32.736 0 45.248L263.072 308.32zM760.928 715.616c-12.544-12.512-32.768-12.512-45.248 0-12.512 12.512-12.544 32.736 0 45.248l45.248 45.248c12.512 12.512 32.736 12.512 45.248 0s12.512-32.736 0-45.248L760.928 715.616z" p-id="2284" fill=${color}></path></svg>`;
@@ -8533,7 +8533,7 @@
     localStorage.setItem("dark", flag);
   }
 
-  // ns-hugo:/home/runner/work/blog/blog/themes/virgo/assets/js/utils/viewImage.js
+  // ns-hugo:/home/runner/work/actions_test/actions_test/themes/virgo/assets/js/utils/viewImage.js
   var import_jquery8 = __toESM(require_jquery_min());
   function viewImage(e) {
     if (location.pathname === "/")
@@ -8624,7 +8624,7 @@
     );
   }
 
-  // ns-hugo:/home/runner/work/blog/blog/themes/virgo/assets/js/init/eventBinding.js
+  // ns-hugo:/home/runner/work/actions_test/actions_test/themes/virgo/assets/js/init/eventBinding.js
   function initEventBinding() {
     (0, import_jquery9.default)(window).bind("hashchange", fixAnchorTop);
     (0, import_jquery9.default)(window).bind("scroll", (0, import_lodash.throttle)(colorHeader, 20));
@@ -8636,7 +8636,7 @@
     (0, import_jquery9.default)(".content img").bind("click", viewImage);
   }
 
-  // ns-hugo:/home/runner/work/blog/blog/themes/virgo/assets/js/init/initCodeBlock.js
+  // ns-hugo:/home/runner/work/actions_test/actions_test/themes/virgo/assets/js/init/initCodeBlock.js
   var import_jquery10 = __toESM(require_jquery_min());
   function initCodeBlock() {
     const _arr = (0, import_jquery10.default)("pre code");
@@ -8671,7 +8671,7 @@
     });
   }
 
-  // ns-hugo:/home/runner/work/blog/blog/themes/virgo/assets/js/init/initNavLink.js
+  // ns-hugo:/home/runner/work/actions_test/actions_test/themes/virgo/assets/js/init/initNavLink.js
   var import_jquery11 = __toESM(require_jquery_min());
   var blankLiItem = `<li><a></a></li>`;
   var col = !browserRedirect() ? 5 : 2;
@@ -8693,10 +8693,10 @@
     _prevEle.html(_prevEle.html() + ` <sup>\u300C${_bmLen}\u300D</sup> ${_st}`);
   }
 
-  // ns-hugo:/home/runner/work/blog/blog/themes/virgo/assets/js/init/initMouseClickAnimate.js
+  // ns-hugo:/home/runner/work/actions_test/actions_test/themes/virgo/assets/js/init/initMouseClickAnimate.js
   var import_jquery12 = __toESM(require_jquery_min());
 
-  // ns-hugo:/home/runner/work/blog/blog/themes/virgo/assets/js/init/enhanceOrgMode.js
+  // ns-hugo:/home/runner/work/actions_test/actions_test/themes/virgo/assets/js/init/enhanceOrgMode.js
   var import_jquery13 = __toESM(require_jquery_min());
   function enhanceOrgMode_default() {
     (0, import_jquery13.default)(".html-block p").each((idx, item) => {
@@ -8704,7 +8704,7 @@
     });
   }
 
-  // ns-hugo:/home/runner/work/blog/blog/themes/virgo/assets/js/init/enhanceMarkdown.js
+  // ns-hugo:/home/runner/work/actions_test/actions_test/themes/virgo/assets/js/init/enhanceMarkdown.js
   var import_jquery14 = __toESM(require_jquery_min());
   function enhanceMarkdown_default() {
     (0, import_jquery14.default)("em").each((idx, item) => {
